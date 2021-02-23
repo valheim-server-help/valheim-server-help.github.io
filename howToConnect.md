@@ -5,7 +5,7 @@ nav_order: 2
 
 # How to connect to a Valheim Dedicated server
 
-There are multiple ways to connect to a server in Valheim.
+There are multiple ways to connect to a server in Valheim. As the in-game Community server **is bugged right now**, below are instructions for alternative ways people can connect to a server.
 
 If users can't connect to the server using the methods below, then you've got problems with the server, see [Server Troubleshooting](serverTroubleshooting.md).
 
