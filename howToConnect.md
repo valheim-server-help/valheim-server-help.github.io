@@ -15,8 +15,10 @@ In all cases you'll need to know the IP address to connect to.
 
 If you're hosting with a managed game server hosting provider, they should provide the IP address of the server.
 
-If you're hosting the server on a computer in your local network, the IP address for **external** people to use can be found here [https://whatismyipaddress.com/](https://whatismyipaddress.com/). It's the IPv4 value you want.\
-As you'll be connecting from **inside** your local network, you should use the local IP of the machine (probably starts `192.168..`). If the server is running on the same machine that you play the game on, use `127.0.0.1`.
+If you're hosting the server on a computer in your local network, the IP address for **external** people to use can be found here [https://whatismyipaddress.com/](https://whatismyipaddress.com/). It's the IPv4 value you should provide **to them**.\
+**Do not use that IP yourself** - You'll be connecting from **inside** your local network.\
+If the server is running on the same machine that you play the game on, you use `127.0.0.1`.\
+If the server is running on a different machine in your network you should use the local IP of that machine (probably starts `192.168..`). On windows you can check this with Win+r, enter `cmd /k ipconfig /all` click OK, and look for the 'IPv4 Address'.
 
 ## Steam Servers
 The most common method to join games at the moment is using the Steam Server Favourites list.
