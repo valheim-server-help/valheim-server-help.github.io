@@ -15,7 +15,7 @@ A list of issues, along with things you should check / possible solutions.
 ##### My server start script exits unexpectedly
 Have you set a `-password` parameter, is it more than five characters, and not in the `-name` parameter?
 
-##### My server seems to start ok, but when I try to connect, I get a 'DICONNECTED' message?
+##### My server seems to start ok, but when I try to connect, I get a 'DISCONNECTED' message?
 This is often resolved by restarting the server machine.
 
 ##### People external to my LAN are able to connect to the server, but I can't connect?
