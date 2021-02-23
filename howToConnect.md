@@ -1,6 +1,5 @@
 ---
 title: How to connect
-has_children: true
 nav_order: 2
 ---
 
@@ -8,9 +7,7 @@ nav_order: 2
 
 There are multiple ways to connect to a server in Valheim.
 
-If **no-one** can connect to the server using the methods below, then you've got problems with the server, see [Server Troubleshooting](serverTroubleshooting.md).
-
-If **some users** can connect to the server but some can't, then see [Connection Troubleshooting](connectionTroubleshooting.md).
+If users can't connect to the server using the methods below, then you've got problems with the server, see [Server Troubleshooting](serverTroubleshooting.md).
 
 
 ## What's the servers IP address
@@ -47,7 +44,7 @@ To join the server, you can just double click it's name.
 
 If the server doesn't show up, or is "not responding", and clicking `Refresh` doesn't help, you may have server issues.
 
-Try connecting the game using one of the methods below, refer to [Connection Troubleshooting](connectionTroubleshooting.md), or try asking for assistance in [the Discord]
+You may also try connecting to the game using one of the methods below, or asking for assistance in [the Discord]
 
 
 ## In-game Join IP
@@ -64,7 +61,7 @@ Try connecting the game using one of the methods below, refer to [Connection Tro
 
 6. Click Connect
 
-Your game should then connect to the server. If it doesn't refer to [Connection Troubleshooting](connectionTroubleshooting.md), or try asking for assistance in [the Discord]
+Your game should then connect to the server. If it doesn't try asking for assistance in [the Discord]
 
 
 ## Auto join a server when first launching the game
@@ -81,7 +78,7 @@ You can add a parameter to the games launch options so that it will auto-connect
 
 3. Close the properties window, and the game will now try to connect to that server whenever it is run.
 
-If the game doesn't connect, refer to [Connection Troubleshooting](connectionTroubleshooting.md), or try asking for assistance in [the Discord]
+If the game doesn't connect, try asking for assistance in [the Discord]
 
 
 [the Discord]: <https://discord.gg/U7Ng93FER8>
