@@ -51,3 +51,9 @@ WinSCP uses binary transfer for files by default, but FileZilla may not and this
 5. Replace the world files on the destination machine, with those from the source machine.
 
 6. You can now start the server on the destination machine again, and it will load the world from the files you have just added.
+
+---
+
+## External links
+
+If you are hosting with g-portal, their support guidance can be found here: [https://www.g-portal.com/wiki/en/vallheim-settings-and-server/#how-to-upload-your-own-world](https://www.g-portal.com/wiki/en/vallheim-settings-and-server/#how-to-upload-your-own-world)
