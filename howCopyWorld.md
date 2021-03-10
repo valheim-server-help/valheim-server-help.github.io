@@ -13,6 +13,8 @@ The default location that Valheim saves world files is:
 
 **Linux**: `~/.config/unity3d/IronGate/Valheim/worlds/`
 
+If you have rented a server from a game server provider, double check with their support information where they store save files, as they may use a custom location.
+
 There will likely be 4 files stored for each world:
 
 `world.fwl`\
