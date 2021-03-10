@@ -26,6 +26,12 @@ Where "world" is the name of your world. If you want to double check the name of
 
 The `.old` files are backups, and not strictly necessary for the purpose of the transfer.
 
+##### World re-nameing
+
+**Do not** change the name of your `.fwl` or `.db` files, as this will break things.
+
+If your circumstances *absolutely require* changing the world name, use this tool: [https://geekstrom.de/valheim/fwl/](https://geekstrom.de/valheim/fwl/)
+
 ##### FTP Transfer Modes
 
 If you are interacting with a server to upload/download files using FTP, (and you're on Windows) using [WinSCP](https://winscp.net/eng/index.php) is recommended.
@@ -57,3 +63,7 @@ WinSCP uses binary transfer for files by default, but FileZilla may not and this
 ## External links
 
 If you are hosting with g-portal, their support guidance can be found here: [https://www.g-portal.com/wiki/en/vallheim-settings-and-server/#how-to-upload-your-own-world](https://www.g-portal.com/wiki/en/vallheim-settings-and-server/#how-to-upload-your-own-world)
+
+
+
+world save name change
