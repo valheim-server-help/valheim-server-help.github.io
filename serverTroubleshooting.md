@@ -8,6 +8,24 @@ nav_order: 3
 
 A list of issues, along with things you should check / possible solutions.
 
+<!--
+
+Check the specific guides below, and review the list of common issues.
+
+---
+
+## Troubleshooting guides
+
+Choose from the following options based on your specific situation:
+
+- I am hosting the dedicated server on the same machine that I play the game on. [Click here to view help](serverTroubleshootingLocalhost.md)
+
+- I am hosting the dedicated server on another machine that's on the same LAN as me. [Click here to view help](serverTroubleshootingLAN.md)
+
+- I am hosting the dedicated server on another machine that's external to my network (VPS etc.). [Click here to view help](serverTroubleshootingRemote.md)
+
+-->
+
 ---
 
 ## Very common issues/questions
