@@ -24,7 +24,13 @@ Where "world" is the name of your world. If you want to double check the name of
 
 The `.old` files are backups, and not strictly necessary for the purpose of the transfer.
 
-**Note** If you are downloading or uploading world save files via FTP, make sure that the transfer mode is set to **BINARY**
+##### FTP Transfer Modes
+
+If you are interacting with a server to upload/download files using FTP, (and you're on Windows) using [WinSCP](https://winscp.net/eng/index.php) is recommended.
+
+If you use [FileZilla](https://filezilla-project.org/) (or other software) instead, make sure that the file transfer type is set to **BINARY**.
+
+WinSCP uses binary transfer for files by default, but FileZilla may not and this has caused some issues for users.
 
 ---
 
