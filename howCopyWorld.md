@@ -63,7 +63,3 @@ WinSCP uses binary transfer for files by default, but FileZilla may not and this
 ## External links
 
 If you are hosting with g-portal, their support guidance can be found here: [https://www.g-portal.com/wiki/en/vallheim-settings-and-server/#how-to-upload-your-own-world](https://www.g-portal.com/wiki/en/vallheim-settings-and-server/#how-to-upload-your-own-world)
-
-
-
-world save name change
