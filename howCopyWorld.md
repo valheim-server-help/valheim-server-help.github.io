@@ -5,7 +5,7 @@ parent: Guides
 
 # How to move a Valheim world save
 
-If you need to move a world save from one server to another this shouldn't be *too* painful ;)
+If you need to move a world save from one server to another, or from your local machine to a server, this shouldn't be *too* painful ;)
 
 The default location that Valheim saves world files is:
 
