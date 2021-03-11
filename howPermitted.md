@@ -1,6 +1,6 @@
 ---
 title: How to use permittedlist.txt
-parent: Guides
+parent: General Guides
 ---
 
 # How to set Valheim server permitted players

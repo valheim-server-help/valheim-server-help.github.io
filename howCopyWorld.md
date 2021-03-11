@@ -1,6 +1,6 @@
 ---
 title: How to move a world save
-parent: Guides
+parent: General Guides
 ---
 
 # How to move a Valheim world save
