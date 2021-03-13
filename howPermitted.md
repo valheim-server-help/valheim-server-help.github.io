@@ -34,4 +34,4 @@ If you make **any** use of this functionality, **all** players not on the list w
 	77556392054375653
 	```
 
-3. Restart server for changes to be applied.
+3. When you have updated the `permittedlist.txt` file, the changes should apply immediately, but if you have issues, try restarting the server.

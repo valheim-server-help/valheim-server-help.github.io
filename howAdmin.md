@@ -35,4 +35,4 @@ parent: General Guides
 	77556392054375653
 	```
 
-3. Restart server for changes to be applied.
+3. When you have updated the `adminlist.txt` file, the changes should apply immediately, but if you have issues, try restarting the server.
