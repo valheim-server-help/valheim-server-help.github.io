@@ -34,4 +34,6 @@ If you make **any** use of this functionality, **all** players not on the list w
 	77556392054375653
 	```
 
+	**Note** do not add any other text to this file, comments after ID numbers or similar.
+
 3. When you have updated the `permittedlist.txt` file, the changes should apply immediately, but if you have issues, try restarting the server.

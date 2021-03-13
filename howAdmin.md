@@ -34,5 +34,7 @@ parent: General Guides
 	76551295065884553
 	77556392054375653
 	```
+	
+	**Note** do not add any other text to this file, comments after ID numbers or similar.
 
 3. When you have updated the `adminlist.txt` file, the changes should apply immediately, but if you have issues, try restarting the server.
