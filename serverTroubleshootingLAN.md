@@ -8,6 +8,7 @@ nav_exclude: true
 Follow the process below to help diagnose problems with your dedicated server, running on a separate Windows machine in your LAN.
 
 For the sake of simplicity, this guide assumes that you are running the server on it's default `-port` of 2456. Also assumed is that you have not added `-public 0` to the start script.
+
 ---
 
 ## Confirm that the server is starting ok
