@@ -2,6 +2,10 @@
 title: FAQs
 nav_order: 1
 ---
+
+{{ site.url }}
+
+
 # Top questions / FAQ
 
 ##### Why does a server not appear in the in-game community server list?
