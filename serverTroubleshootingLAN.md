@@ -48,7 +48,9 @@ Where 'Device IP' (192.168.1.2 in the table) matches the IP of the server machin
 
 Once you have set-up, saved and applied Port Forward rules and the firewall settings, check if your server can be seen by this tool <a href="https://geekstrom.de/valheim/check/" target="_blank">https://geekstrom.de/valheim/check/</a>.
 
-When you load that check tool, it will populate with your external public IP automatically, click 'Check', and see if you get a 'Yes' or a 'No'.
+When you load that check tool, it should populate with your external public IP automatically. If the 'Server Address' box is empty for you, look up your IPv4 address here <a href="https://www.whatsmyip.org/" target="_blank">https://www.whatsmyip.org/</a>, and use that.
+
+Once there is an IP in the 'Server Address' box of the check tool click 'Check', and see if you get a 'Yes' or a 'No'.
 
 If you get a 'No', then traffic is not making it from the internet to your server process. Have a look at your port forward and firewall rules, and if you can't find a solution, try asking for help in [the Discord].
 
