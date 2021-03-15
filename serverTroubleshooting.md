@@ -19,6 +19,7 @@ Choose from the following options based on your specific situation:
 - I am hosting the dedicated server on another machine that's on the same LAN as me. [Windows, click here to view help](serverTroubleshootingLAN.md)
 
 - Futher troubleshooting guides, TBC
+
 <!--
 
 - I am hosting the dedicated server on another machine that's external to my network (VPS etc.). [Click here to view help](serverTroubleshootingRemote.md)
