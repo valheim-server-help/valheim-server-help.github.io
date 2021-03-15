@@ -1,12 +1,5 @@
-.idea/workspace.xml
-
-.bundle
-.sass-cache
-.jekyll-metadata
-.jekyll-cache
-.env
-
-vendor
 _site
-
-Gemfile.lock
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
