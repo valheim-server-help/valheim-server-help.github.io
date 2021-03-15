@@ -1,0 +1,16 @@
+# @docs: https://docs.docker.com/compose/compose-file/compose-file-v3
+# =============================================================================
+version: "3.8"
+
+# Container definitions
+# =============================================================================
+services:
+
+  jekyll:
+    image: "jekyll/jekyll:latest"
+    command: jekyll serve --force_polling --livereload --incremental
+    volumes:
+      - ./:/srv/jekyll
+    ports:
+      - 35729:35729
+      - 4000:4000

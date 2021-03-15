@@ -1,0 +1,8 @@
+.idea
+.git
+
+docker-compose.yml
+Gemfile.lock
+
+LICENSE.md
+README.md
