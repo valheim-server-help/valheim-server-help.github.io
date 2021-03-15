@@ -19,7 +19,7 @@ When you run the `start_my_headless_server.bat` file, watch the server output in
 
 If the output gets to a line containing `DungeonDB Start`, and isn't producing `Game server connected failed` messages after that, then your server should be running ok and waiting for connections. Proceed to trying a local connection below.
 
-If you have issues at this point, check that you have a `-password` set, that it's 5 characters or more, and not in the server `-name`. Also check that the server process is allowed to access the internet in your firewall settings. If neither apply, try asking for help in the [the Discord].
+If you have issues at this point, check that you have a `-password` set, that it's 5 characters or more, and not in the server `-name`. Also check that the server process is allowed to access the internet in your firewall settings. If neither apply, try asking for help in [the Discord].
 
 ---
 
@@ -50,7 +50,7 @@ Once you have set-up, saved and applied Port Forward rules and the firewall sett
 
 When you load that check tool, it will populate with your external public IP automatically, click 'Check', and see if you get a 'Yes' or a 'No'.
 
-If you get a 'No', then traffic is not making it from the internet to your server process. Have a look at your port forward and firewall rules, and if you can't find a solution, try asking for help in the [the Discord].
+If you get a 'No', then traffic is not making it from the internet to your server process. Have a look at your port forward and firewall rules, and if you can't find a solution, try asking for help in [the Discord].
 
 If you get a 'Yes', then you have at least port 2457 working. Have your external player add the server to their steam server favourites (as described [here](howToConnect.md#steam-servers)). For the IP and port, the check tool will confirm what they should add, it's displayed at the bottom of it's results:
 
@@ -58,7 +58,7 @@ If you get a 'Yes', then you have at least port 2457 working. Have your external
 
 If the external player gets a 'not playing on any game server' error message, they should press the Refresh button.
 
-If when trying to join the game, the external player gets a 'Disconnected' message when they try to connect, have a look at your port forward and firewall rules, and if you can't find a solution, try asking for help in the [the Discord].
+If when trying to join the game, the external player gets a 'Disconnected' message when they try to connect, have a look at your port forward and firewall rules, and if you can't find a solution, try asking for help in [the Discord].
 
 
 
