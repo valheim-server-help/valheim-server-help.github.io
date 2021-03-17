@@ -60,7 +60,7 @@ Accept the defaults and click ![WD_allow_access](../assets/installWinSteam/wd_al
 
 **Step 6:** Add the server to your Steam Server Favorites, via `127.0.0.1:2457`.  
 Click "Find Games At This Address".
-**NOTE :** If you don't know how to add a Favorite, checkout this [guide](https://valheim-server-help.github.io/howToConnect/#steam-servers)
+**NOTE :** If you don't know how to add a Favorite, checkout this [guide](https://valheim-server-help.github.io/howToConnect/#steam-servers)  
 ![steam_server_list](../assets/installWinSteam/steam_server_list.png)
 
 ### Congratulations, you've installed and configured your very own Dedicated Valheim Server!
