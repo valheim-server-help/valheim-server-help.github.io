@@ -6,7 +6,7 @@ parent: Install Guides
 # Valheim DS – Windows - Steam Library
 ##### Installation instructions for setting up Valheim dedicated server on Windows using Steam
 
-**Disclaimer:**  *This guide assumes you've installed and launched Valheim (game) at least once.*
+**Disclaimer:**  *This guide assumes you've installed and launched Valheim (game) at least once and running the server on that same PC.*
 
 ---
 **Step 1:** Launch Steam, go to your Library, and search here for the **Valheim.**
