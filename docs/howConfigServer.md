@@ -55,7 +55,7 @@ Accept the defaults and click ![WD_allow_access](../assets/configServers/wd_allo
 
 #### **[Please click here to continue.](https://valheim-server-help.github.io//howConfigServer/#congratulations)** 
 
-## Linux Server Configuration
+## Linux Server Configuration - *Coming-Soon*
 
 
 ### Congratulations!

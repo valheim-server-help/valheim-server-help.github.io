@@ -3,13 +3,13 @@ title: Setting Server Admins
 parent: Configuration
 nav_order: 3
 ---
-# How to set Valheim server admins
+# How to Set Valheim Server Admins
 
 'Admin' users on a Valheim server have access to the following commands:
 
 `kick`, `ban`, `unban`, `banned` and `save`
 
-`imacheater` or related commands are not enabled on a dedicated server, even for admins.
+`devcommands` or related commands are not enabled on a dedicated server, even for admins.
 
 ---
 
@@ -36,6 +36,6 @@ nav_order: 3
 	77556392054375653
 	```
 	
-	**Note** do not add any other text to this file, comments after ID numbers or similar.
+	**Note:** *do not add any other text to this file, comments after ID numbers or similar.*
 
 3. When you have updated the `adminlist.txt` file, the changes should apply immediately, but if you have issues, try restarting the server.

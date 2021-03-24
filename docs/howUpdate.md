@@ -3,50 +3,48 @@ title: Updating your Server
 parent: Configuration
 nav_order: 2
 ---
-# How to update a dedicated Valheim server 
+#  How to Update Your Valheim Server
 
-See below for information about updating your Valheim server, depending on your platform/install method.
+
 
 ---
 
-## Windows - installed through Steam
+## Windows -  Steam Library
 
-If you installed the 'Valheim Dedicated Server' in Steam tools, then your Steam client should update the server in the same way that it updates regular games. Be sure to stop the server by pressing Ctrl+c in it's cmd window before downloading updates though. If you have problems perform the following actions:
+If you installed the 'Valheim Dedicated Server' from your Steam Library, then your Steam client should update the server in the same way that it updates regular games.  
+Be sure to stop the server by pressing `CTRL + C` in it's CMD window before downloading updates.  
 
-1. Make sure that the server is not running, stop it by pressing Ctrl+c in it's cmd window.
+#### If you have problems performing the previous actions, proceed with the following:
 
-2. Navigate to your world save location. Unless you have customised this, you can get there by pressing `Win`+`r`, entering `%USERPROFILE%/AppData/LocalLow/IronGate/Valheim/` and clicking `OK`.
+1. Make sure that the server is not running, stop it by pressing `CTRL + C` in it's CMD window.
 
-3. Take a back-up copy of the entire `worlds/` directory and set aside in case anything goes wrong.
+2. Navigate to your world save location. Unless you have customised this, you can get there by pressing `WIN + R`, entering `%USERPROFILE%/AppData/LocalLow/IronGate/` and pressing `ENTER`.
 
-4. Find the 'Valheim Dedicated Server' in your Steam library, right-click, and choose 'Properties'.
+3. Take a back-up copy of the entire `Valehim` directory and set aside in case anything goes wrong.
 
-5. In the window that opens click 'Local Files' and choose 'Verify integrity of game files...'
+4. Find `Valheim Dedicated Server` in your Steam library, right-click, and choose `Properties`.
 
-	**Note:** If you're **not** using a copy of the `start_headless_server.bat` file to start your server, make a copy of that .bat file now, as the verification process will reset its contents to default.
+5. In the window that opens click `Local Files` and choose `Verify integrity of game files...`
+
+	**Note:** If you're **not** using a copy of the `start_headless_server.bat` file to start your server, make a copy of that `.bat` file now, as the verification process will reset its contents to default.
 
 6. Steam should then check all your server install files, and correct any issues.
 
 7. Once Steam has finished doing this, run your server again.
 
-If you still have issues after that, see [Server Troubleshooting](serverTroubleshooting.md).
+If you still have issues after that, see [Troubleshooting](serverTroubleshooting.md).
 
-## Windows - installed through steamcmd
+## Windows - SteamCMD
 
-If you installed the 'Valheim Dedicated Server' using steamcmd, you should run the same `app_update` command that you used to first install the server. Be sure that the server is not running when you do this (and take a backup of the world save just in case).
+If you installed the `Valheim Dedicated Server` using SteamCMD, you should run the `app_update 896660 validate` command.  
+Be sure that the server is not running when you do this and always create a backup of your `Valheim` folder located at `%USERPROFILE%/AppData/LocalLow/IronGate/`
 
-If you have problems with the server after an update, try doing the `app_update` command again with `validate` present i.e.:
+**Note:** If you're **not** using a copy of the `start_headless_server.bat` file to start your server, make a copy of that `.bat` file now, as the `validate` process will reset its contents to default.
 
-`app_update 896660 validate`
-
-(adjust the above to your specific install commands)
-
-**Note:** If you're **not** using a copy of the `start_headless_server.bat` file to start your server, make a copy of that .bat file now, as the `validate` process will reset its contents to default.
-
-If you still have issues after that, see [Server Troubleshooting](serverTroubleshooting.md).
+If you still have issues after that, see [Troubleshooting](serverTroubleshooting.md).
 
 ---
 
-## Linux - installed through steamcmd
+## Linux - SteamCMD
 
 TBC
