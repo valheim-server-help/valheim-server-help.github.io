@@ -1,6 +1,7 @@
 ---
-title: How to move a world save
+title: Transferring a World Save
 parent: General Guides
+nav_order: 4
 ---
 
 # How to move a Valheim world save
