@@ -1,6 +1,7 @@
 ---
-title: Linux steamcmd Install
-parent: Install Guides
+title: Linux SteamCMD Install
+parent: Installation
+nav_order: 3
 ---
 # How to install Valheim dedicated server - Linux - steamcmd
 

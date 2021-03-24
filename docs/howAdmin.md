@@ -1,6 +1,7 @@
 ---
-title: How to set server admins
-parent: General Guides
+title: Setting Server Admins
+parent: Configuration
+nav_order: 3
 ---
 # How to set Valheim server admins
 

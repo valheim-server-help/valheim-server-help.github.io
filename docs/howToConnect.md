@@ -1,5 +1,6 @@
 ---
-title: How to connect
+title: Connecting to a Server
+parent: General Guides
 nav_order: 2
 ---
 

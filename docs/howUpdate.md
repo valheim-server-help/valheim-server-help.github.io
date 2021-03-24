@@ -1,6 +1,7 @@
 ---
-title: How to update a dedicated server
-parent: General Guides
+title: Updating your Server
+parent: Configuration
+nav_order: 2
 ---
 # How to update a dedicated Valheim server 
 
