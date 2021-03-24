@@ -1,7 +1,6 @@
 ---
 title: Connecting to a Server
 parent: General Guides
-title: How to connect
 nav_order: 2
 ---
 
