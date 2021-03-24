@@ -48,7 +48,7 @@ nav_order: 2
 **Step 6a:** Change the install directory. `force_install_dir C:\Valheim\Valheim_Server`  
 ![steamcmd_setup_directory](../assets/installWinSteamCMD/steamcmd_directory.png)
 
-**Step 6b:** Install Valheim Dedicated Server.  
+**Step 6b:** Install Valheim Dedicated Server. `app_update 896660 validate`  
 ![steamcmd_setup_install_valheim](../assets/installWinSteamCMD/steamcmd_install.png)
 
 #### Please head over to [Server Configuration](https://valheim-server-help.github.io/howConfigServer/) to continue!
