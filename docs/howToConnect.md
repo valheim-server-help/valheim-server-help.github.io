@@ -11,17 +11,19 @@ If users can't connect to the server using the methods below, then you've got pr
 
 
 ## What's the servers IP address
-In all cases you'll need to know the IP address to connect to.
+In all cases you'll need to know the IPv4 address to connect to. (Note Valheim does not support IPv6 connections at this time)
 
-If you're hosting with a managed game server hosting provider, they should provide the IP address of the server.
+| Server Location | Client location | IP to use |
+|:--------------|:--------------|:---------|
+| A PC in your LAN | Playing on the same PC that's running the server | `127.0.0.1` |
+| A PC in your LAN | Another PC in the same LAN as the server | Private LAN IP of server. On Windows, press `Win`+`r`, on the server machine, enter `cmd /k ipconfig` click OK, and look for the 'IPv4 Address'. |
+| A PC in your LAN | External (remote, not in the same LAN) | Public IP of the network the server is within. Visit [this site](https://whatismyipaddress.com/) and give IPv4 to the external player. |
+| VPS | Any | VPS public IP |
+| Rented from a Game Server Provider (gPortal,4netplayers etc.) | Any | Provided by Game Server Provider |
 
-If you're hosting the server on a computer in your local network, the IP address for **external** people to use can be found here [https://whatismyipaddress.com/](https://whatismyipaddress.com/). It's the IPv4 value you should provide **to them**.\
-**Do not use that IP yourself** - You'll be connecting from **inside** your local network.\
-If the server is running on the same machine that you play the game on, you use `127.0.0.1`.\
-If the server is running on a different machine in your network you should use the local IP of that machine (probably starts `192.168..`). On windows you can check this with Win+r, enter `cmd /k ipconfig /all` click OK, and look for the 'IPv4 Address'.
 
 ## Steam Servers
-The most common method to join games at the moment is using the Steam Server Favourites list.
+The most common method to join games at the moment is using the Steam Server Favorites list.
 
 In Steam, click `View` > `Servers`
 
@@ -70,7 +72,9 @@ Your game should then connect to the server. If it doesn't try asking for assist
 
 You can add a parameter to the games launch options so that it will auto-connect to a server when it starts.
 
-**Note** if using this, the game will only try to connect once when it starts. If you logout from the world, and need to reconnect, restart the game.
+**Note 1** if using this, the game will only try to connect once when it starts. If you logout from the world, and need to reconnect, restart the game.
+
+**Note 2** In-game Join IP, and steam server favorites both support domain names instead of IP addresses, but this method *only* supports IP addresses.
 
 1. Right-click the game name in Steam, and choose `Properties`\
 ![properties](/assets/autoConnect1.jpg)

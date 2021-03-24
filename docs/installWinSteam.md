@@ -6,7 +6,7 @@ parent: Install Guides
 # Valheim DS – Windows - Steam Library
 ##### Installation instructions for setting up Valheim dedicated server on Windows using Steam
 
-**Disclaimer:**  *This guide assumes you've installed and launched Valheim (game) at least once.*
+**Disclaimer:**  *This guide assumes you've installed and launched Valheim (game) at least once and running the server on that same PC.*
 
 ---
 **Step 1:** Launch Steam, go to your Library, and search here for the **Valheim.**
@@ -60,7 +60,7 @@ Accept the defaults and click ![WD_allow_access](../assets/installWinSteam/wd_al
 
 **Step 6:** Add the server to your Steam Server Favorites, via `127.0.0.1:2457`.  
 Click "Find Games At This Address".
-**NOTE :** If you don't know how to add a Favorite, checkout this [guide](https://valheim-server-help.github.io/howToConnect/#steam-servers)
+**NOTE :** If you don't know how to add a Favorite, checkout this [guide](https://valheim-server-help.github.io/howToConnect/#steam-servers)  
 ![steam_server_list](../assets/installWinSteam/steam_server_list.png)
 
 ### Congratulations, you've installed and configured your very own Dedicated Valheim Server!
