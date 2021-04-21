@@ -36,10 +36,10 @@ If you still have issues after that, see [Troubleshooting](serverTroubleshooting
 
 ## Windows - SteamCMD
 
-If you installed the `Valheim Dedicated Server` using SteamCMD, you should run the `app_update 896660 validate` command.  
+If you installed the `Valheim Dedicated Server` using SteamCMD, you should run the `app_update 896660` command.  
 Be sure that the server is not running when you do this and always create a backup of your `Valheim` folder located at `%USERPROFILE%/AppData/LocalLow/IronGate/`
 
-**Note:** If you're **not** using a copy of the `start_headless_server.bat` file to start your server, make a copy of that `.bat` file now, as the `validate` process will reset its contents to default.
+**Note:** If you're **not** using a copy of the `start_headless_server.bat` file to start your server, make a copy of that `.bat` file now, as the `app_update` process *may* reset its contents to default.
 
 If you still have issues after that, see [Troubleshooting](serverTroubleshooting.md).
 
