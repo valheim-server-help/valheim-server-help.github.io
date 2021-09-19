@@ -20,8 +20,11 @@ nav_order: 1
 
 `-public` = Toggles visibility of server on Steam Server & Community Lists. (`public 1`->visible; `-public 0`->NOT visible)
 
+`-savedir` = Forces the server's world files & `admin`/`banned`/`binds`/`permmitted`/ lists to be saved in the specified location, ie. `-savedir "D:\Valheim\Valheim\Valheim_Server\"`, instead of the default (`%USERPROFILE%\AppData\LocalLow\IronGate\Valheim\worlds`).
+
 `-logFile` = Setting this parameter to a path will **_STOP ALL OUTPUT TO THE CONSOLE_**, and redirect it to a text file.
 Example: `-logFile C:\Valheim\Valheim\Valheim_Server\logs\MyServerLog.txt`
+
 
 ## Windows Server Configuration
 ### NAVIGATE TO YOUR SERVER INSTALL LOCATION
