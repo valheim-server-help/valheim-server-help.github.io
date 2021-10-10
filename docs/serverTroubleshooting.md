@@ -18,7 +18,7 @@ Choose from the following options based on your specific situation:
 
 - I am hosting the dedicated server on another machine that's on the same LAN as me. [Windows, click here to view help](serverTroubleshootingLAN.md)
 
-- Futher troubleshooting guides, TBC
+- I am having trouble connecting due to an incorrect IPv4 or IPv6 address being bound to my network interface. [How-To Configure ForcebindIP-*Links Offsite; Use at your own risk.*-](https://r1ch.net/projects/forcebindip)
 
 <!--
 
